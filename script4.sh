@@ -7,7 +7,7 @@ elif [ "$1" == "John" ]; then
 else echo "Welcome $1"
 fi
 
-x=$2
+read -p "Enter Your name or number: " x
 
 echo "Starting CASE selection..."
 case $x in
