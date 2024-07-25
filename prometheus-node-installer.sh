@@ -1,4 +1,4 @@
-NODE_EXPORTER_VERSION="1.7.0"
+NODE_EXPORTER_VERSION="1.8.2"
 
 cd /tmp
 wget https://github.com/prometheus/node_exporter/releases/download/v$NODE_EXPORTER_VERSION/node_exporter-$NODE_EXPORTER_VERSION.linux-amd64.tar.gz
